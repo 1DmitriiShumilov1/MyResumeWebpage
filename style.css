@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: Roboto;
+    color: #777
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-width: 264px;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.main-nav{
+    display: grid;
+    text-align: center;
+    font-size: 1.3em;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li{
+    padding: 0 1%;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-header{
+    background-image: url(images/header-bg.jpg);
+    background-color: rgba(0, 0, 0, .6);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+    height: 350px;
+}
+
+.my-name{
+    line-height: 1.7em;
+    color: white;
+    font-family: Oswald;
+    font-weight: normal;
+    font-size: 3em;
+    text-shadow: 2px 2px 6px #000;
+}
+
+.container{
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.container-2{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section-header{
+    text-align: center;
+    font-family: Oswald;
+    font-weight: normal;
+    font-size: 2em;
+    color: #333;
+}
+
+.img-and-text{
+    display: flex;
+    background-color: rgba(58, 169, 177, .2);
+    width: 70%;
+    padding: 10px;
+    margin: 1em auto;
+    border-radius: 10px;
+}
+
+.paragraph{
+    margin: 7px;
+    position: relative;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.footer{
+    background-color: rgb(58, 169, 177);
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.logo{
+    display: flex;
+    height: 50px;
+}
+
+.my-name-footer{
+    font-size: 2em;
+    color: white;
+    font-family: Oswald;
+    font-weight: normal;
+}
+
+.mini-text{
+    padding: 1em;
+    background-color: rgba(58, 169, 177, .2);
+    border-radius: 5%;
+    margin-bottom: 25px;
+}
+
+.mini-header{
+    text-shadow: 2px 2px 6px rgb(190, 189, 189);
+}
+
+.resume-section{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.big-section{
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+}
+
+.big-section-rubios{
+    text-align: right;
+    width: 100%;
+    max-width: 400px;
+}
+
+.big-section-1{
+    width: 15%;
+    font-size: 80%;
+}
+
+.big-section-2{
+    width: 46%;
+    margin: 0 2%;
+    font-size: 80%;
+}
+
+.big-section-3{
+    width: 15%;
+    font-size: 1em;
+}
+
+.image{
+    width: 80%;
+    max-width:300px;
+    border-radius: 5%;
+}
+
+.image-rubios{
+    width: 30%;
+    max-width: 169px;
+    border-radius: 5%;
+}
+
+.image-about{
+    height: 100%;
+    max-height: 12em;
+    border-radius: 5%;
+}
+
+.image-about-phone{
+    height: 100%;
+    min-height: 300px;
+    max-height: 12em;
+    border-radius: 5%;
+}
+
+.image-about:hover, .image-about-phone:hover{
+    position: relative;
+    animation: pop-up .7s;
+}
+
+@keyframes pop-up {
+    0%{
+        top: 0px;
+    }
+
+    50%{
+        top: -15px;
+    }
+
+    100%{
+        top: 0px;
+    }
+}
+
+.flex-title{
+    height: 91.7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 2%;
+}
+
+.big-picture{
+    width: 10em;
+    border-radius: 2%;
+}
+
+.resume-button{
+    width: 7em;
+    height: calc(7em/4);
+    font-size: 1.1em;
+    margin: .5em;
+    background-color: rgb(173, 216, 230);
+    border: 1px solid rgb(88, 193, 228);
+}
+
+.projects-table{
+    width: 100%;
+    border: 1px solid black;
+}
+
+tr, td{
+    border: 1px solid black;
+}
+
+.resume-button:hover{
+    background-color: rgb(126, 202, 228);
+    cursor: pointer;
+}
+
+.resume-button-text{
+    text-decoration: none;
+}
+
+.button-selector{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.paragraph-2{
+    font-size: 1.2em;
+}
+
+.title{
+    font-size: 1em;
+}
+
+@media screen and (max-width:1200px){
+    .resume-section{
+        flex-direction: column;
+        align-items: center;
+        font-size: 2em;
+    }
+
+    .big-section-1, .big-section-2, .big-section-3{
+        width: 50%;
+        font-size: .6em;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .resume-button{
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .work-history-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .img-and-text{
+        display: block;
+        background-color: rgba(58, 169, 177, .2);
+        width: 80%;
+        padding: 10px;
+        margin: 1em auto;
+        border-radius: 10px;
+    }
+
+    .image-about{
+        width: 100%;
+        border-radius: 5%;
+    }
+
+    .image-about-perm{
+        max-width: 300px;
+    }
+
+    .image-about-phone{
+        max-height: 400px;
+        max-width: 312px;
+    }
+
+    .image-about-coding{
+        max-width: 300px;
+    }
+
+    .img-and-text-phone{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .big-section-1, .big-section-2, .big-section-3{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 563px){
+    .main-nav{
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 362px){
+    .main-nav{
+        font-size: .7em;
+    }
+
+    .my-name{
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 322px){
+    .main-nav{
+        font-size: .6em;
+    }
+
+    .my-name{
+        font-size: 2.1em;
+    }
+
+    .paragraph{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 290px){
+    .nav li{
+        display: flex;
+        align-items: center;
+    }
+
+    .main-nav{
+        font-size: 99%;
+    }
+
+    .flex-title{
+        height: 244px;
+    }
+}
