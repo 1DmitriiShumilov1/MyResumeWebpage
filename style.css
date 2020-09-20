@@ -241,11 +241,6 @@ html, body{
 
 .projects-table{
     width: 100%;
-    border: 1px solid black;
-}
-
-tr, td{
-    border: 1px solid black;
 }
 
 .resume-button:hover{
