@@ -71,7 +71,7 @@ html, body{
 
 .container-2{
     width: 90%;
-    margin: 0 auto;
+    margin: 1em auto;
 }
 
 .section-header{
@@ -230,11 +230,6 @@ html, body{
     border-radius: 2%;
 }
 
-.big-picture{
-    width: 10em;
-    border-radius: 2%;
-}
-
 .resume-button{
     width: 7em;
     height: calc(7em/4);
@@ -295,9 +290,16 @@ tr, td{
         flex-direction: column;
     }
 
-
     .resume-button{
         max-width: 200px;
+    }
+
+    .paragraph-2{
+        font-size: .7em;
+    }
+
+    .title{
+        font-size: .8em;
     }
 }
 
