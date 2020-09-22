@@ -63,6 +63,10 @@ html, body{
     text-shadow: 2px 2px 6px #000;
 }
 
+.main-section{
+    min-height: calc(100vh - 462px);
+}
+
 .container{
     max-width: 95%;
     margin: 0 auto;
@@ -142,7 +146,7 @@ html, body{
     width: 80%;
     margin: auto;
     justify-content: space-between;
-    min-height: 100vh;
+    min-height: calc(100vh - 461px);
 }
 
 .big-section{
@@ -218,7 +222,7 @@ html, body{
 }
 
 .flex-title{
-    height: 91.7%;
+    height: 303.22px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,7 +230,20 @@ html, body{
 
 .project{
     width: 100%;
+    max-width: 600px;
+    border-radius: 2%;
+}
+
+.project-resume{
+    width: 100%;
     max-width: 400px;
+    border-radius: 2%;
+}
+
+
+.project-rubios{
+    width: 70%;
+    max-width: 600px;
     border-radius: 2%;
 }
 
@@ -268,6 +285,153 @@ html, body{
     font-size: 1em;
 }
 
+.work-history-section{
+    max-width: 1500px;
+}
+
+@media screen and (min-width: 1950px){
+    .big-section-1{
+        font-size: 100%;
+    }
+    
+    .big-section-3{
+        font-size: 100%;
+    }
+
+    .resume-button{
+        width: 9em;
+        height: calc(9em/4);
+        font-size: 1.2em;
+    }
+
+    .nav{
+        font-size: 1.5em;
+    }
+
+    .flex-title{
+        height: 296px;
+    }
+
+    .paragraph{
+        font-size: 1.5em;
+    }
+
+    .paragraph-2{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 2000px){
+
+    .nav{
+        font-size: 1.7em;
+    }
+
+    .my-name{
+        font-size: 3.5em;
+    }
+
+    .flex-title{
+        height: 288.81px;
+    }
+
+    .big-section{
+        max-width: 500px;
+    }
+    
+    .big-section-rubios, .project-resume{
+        max-width: 500px;
+    }
+}
+
+@media screen and (min-width: 2350px){
+    .big-section-1{
+        font-size: 120%;
+    }
+    
+    .big-section-3{
+        font-size: 120%;
+    }
+
+    .resume-button{
+        width: 10em;
+        height: calc(10em/4);
+        font-size: 1.3em;
+    }
+
+    .paragraph{
+        font-size: 1.6em;
+    }
+
+    .paragraph-2{
+        font-size: 1.8em;
+    }
+
+    .nav{
+        font-size: 2em;
+    }
+    
+    .flex-title{
+        height: 279px;
+    }
+
+    .my-name{
+        font-size: 4em;
+    }
+
+    .img-and-text{
+        width: 50%;
+    }
+
+    .big-section{
+        max-width: 600px;
+    }
+    
+    .big-section-rubios{
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 2900px){
+    .big-section-1{
+        font-size: 160%;
+    }
+    
+    .big-section-3{
+        font-size: 160%;
+    }
+
+    .resume-button{
+        width: 14em;
+        height: calc(14em/5);
+        font-size: 1.8em;
+    }
+
+    .project-resume{
+        max-width: 650px;
+    }
+
+    .paragraph{
+        font-size: 1.7em;
+    }
+
+    .paragraph-2{
+        font-size: 2em;
+    }
+
+    .nav{
+        font-size: 2.3em;
+    }
+    
+    .flex-title{
+        height: 268.22px;
+    }
+
+    .my-name{
+        font-size: 4.5em;
+    }
+}
+
 @media screen and (max-width:1200px){
     .resume-section{
         flex-direction: column;
@@ -277,7 +441,7 @@ html, body{
 
     .big-section-1, .big-section-2, .big-section-3{
         width: 50%;
-        font-size: .6em;
+        font-size: .7em;
     }
 
     .row{
@@ -350,11 +514,19 @@ html, body{
     .main-nav{
         font-size: .8em;
     }
+    
+    .flex-title{
+        height: 321.22px;
+    }
 }
 
 @media screen and (max-width: 362px){
     .main-nav{
         font-size: .7em;
+    }
+    
+    .flex-title{
+        height: 323.81px;
     }
 
     .my-name{
@@ -363,10 +535,6 @@ html, body{
 }
 
 @media screen and (max-width: 322px){
-    .main-nav{
-        font-size: .6em;
-    }
-
     .my-name{
         font-size: 2.1em;
     }
@@ -387,6 +555,6 @@ html, body{
     }
 
     .flex-title{
-        height: 244px;
+        height: 244.56px;
     }
 }
