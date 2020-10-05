@@ -168,14 +168,23 @@ html, body{
 }
 
 .big-section-2{
-    width: 46%;
+    width: 56%;
     margin: 0 2%;
     font-size: 80%;
+    background-color: salmon;
 }
 
 .big-section-3{
     width: 15%;
     font-size: 80%;
+    background-color: sandybrown;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px auto;
 }
 
 .image{
@@ -236,8 +245,8 @@ html, body{
 }
 
 .project-resume{
-    width: 100%;
-    max-width: 400px;
+    width: 150%;
+    max-width: 500px;
     height: 200px;
     border-radius: 2%;
     margin: 0 auto;
