@@ -238,9 +238,30 @@ html, body{
 .project-resume{
     width: 100%;
     max-width: 400px;
+    height: 200px;
     border-radius: 2%;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
 }
-
+    .project-resume-1{
+        background-image: url(images/header-bg.jpg);
+        background-color: rgba(0, 0, 0, .4);
+        background-blend-mode: multiply;
+    }
+    .project-resume-2{
+        background-image: url(images/ViolinStore.jpg);
+        background-color: rgba(0, 0, 0, .4);
+        background-blend-mode: multiply;
+    }
+    .project-resume-3{
+        background-image: url(images/RojoChicken.jpg);
+    }
 
 .project-rubios{
     width: 70%;
@@ -259,6 +280,7 @@ html, body{
 
 .projects-table{
     width: 100%;
+    margin: 0 auto;
 }
 
 .resume-button:hover{
@@ -440,7 +462,24 @@ html, body{
         font-size: 2em;
     }
 
+    .container-2{
+        width: 100%;
+        margin: 1em auto;
+    }
+
+    .button-selector{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .resume-button{
+        max-width: 100px;
+        height: 30px;
+        font-size: .8em;
+    }
+    
     .big-section-1, .big-section-2, .big-section-3{
+        margin: 0 auto;
         width: 50%;
         font-size: .7em;
     }
@@ -507,7 +546,7 @@ html, body{
 
 @media screen and (max-width: 640px){
     .big-section-1, .big-section-2, .big-section-3{
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -521,7 +560,7 @@ html, body{
     }
 }
 
-@media screen and (max-width: 362px){
+@media screen and (max-width: 372px){
     .main-nav{
         font-size: .7em;
     }
@@ -532,6 +571,10 @@ html, body{
 
     .my-name{
         font-size: 2.5em;
+    }
+
+    .button-selector{
+        font-size: .7em;
     }
 }
 
