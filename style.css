@@ -476,6 +476,7 @@ html, body{
     .project-resume{
         width: 100%;
         max-width: 400px;
+        font-size: 1em;
     }
 
     .container-2{
@@ -540,6 +541,7 @@ html, body{
     .project-resume{
         width: 100%;
         max-width: 300px;
+        font-size: .7em;
     }
 
     .image-about{
