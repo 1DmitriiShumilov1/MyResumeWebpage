@@ -255,6 +255,8 @@ html, body{
     align-items: center;
     color: white;
     font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 1px;
 }
     .project-resume-1{
         background-image: url(images/header-bg.jpg);
@@ -268,6 +270,8 @@ html, body{
     }
     .project-resume-3{
         background-image: url(images/RojoChicken.jpg);
+        background-color: rgba(0, 0, 0, .4);
+        background-blend-mode: multiply;
     }
 
 .project-rubios{
@@ -575,6 +579,9 @@ html, body{
     
     .flex-title{
         height: 321.22px;
+    }
+    .title{
+        font-size: .6em;
     }
 }
 
