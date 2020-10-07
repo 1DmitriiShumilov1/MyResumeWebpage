@@ -273,6 +273,11 @@ html, body{
         background-color: rgba(0, 0, 0, .4);
         background-blend-mode: multiply;
     }
+    .project-resume-4{
+        background-image: linear-gradient(to right, #ABDCFF, #0396FF);
+        background-color: rgba(0, 0, 0, .2);
+        background-blend-mode: multiply;
+    }
 
 .project-rubios{
     width: 70%;
