@@ -278,6 +278,11 @@ html, body{
         background-color: rgba(0, 0, 0, .2);
         background-blend-mode: multiply;
     }
+    .project-resume-5{
+        background-image: url(images/TicTacToeBG.bmp);
+        background-color: rgba(0, 0, 0, .2);
+        background-blend-mode: multiply;
+    }
 
 .project-rubios{
     width: 70%;
