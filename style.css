@@ -38,31 +38,34 @@ html, body{
     border-bottom: 1px solid rgba(255, 255, 255, .3)
 }
 
-.main-nav li{
-    padding: 0 1%;
-}
-
-.nav a:hover{
-    background-color: rgba(255, 255, 255, .3);
-}
-
 .main-header{
-    background-image: url(images/header-bg.jpg);
-    background-color: rgba(0, 0, 0, .6);
-    background-size: cover;
+    background-color: rgb(10, 10, 10);
     background-blend-mode: multiply;
-    background-position: center;
-    height: 350px;
+    height: 80vh;
+    box-shadow: 0px 0px 70px 100px rgb(10, 10, 10);
+    position: relative;
 }
-
-.my-name{
-    line-height: 1.7em;
-    color: white;
-    font-family: Oswald;
-    font-weight: normal;
-    font-size: 3em;
-    text-shadow: 2px 2px 6px #000;
-}
+    .name{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 80vh;
+    }
+        .my-name{
+            letter-spacing: 2px;
+            color: white;
+            font-family: Oswald;
+            font-weight: normal;
+            font-size: 3em;
+            margin: 0;
+            width: 100vw;
+            text-align: center;
+            padding-left: .5em;
+        }
+    .text-align-center{
+        text-align: center;
+        padding-left: 1em;
+    }
 
 .main-section{
     min-height: calc(100vh - 462px);
@@ -85,6 +88,7 @@ html, body{
     font-weight: normal;
     font-size: 2em;
     color: #333;
+    margin: 0;
 }
 
 .img-and-text{
@@ -96,21 +100,155 @@ html, body{
     border-radius: 10px;
 }
 
-.paragraph{
-    margin: 7px;
-    position: relative;
-    font-weight: 500;
-    font-size: 1.2em;
-}
-
-.footer{
-    background-color: rgb(58, 169, 177);
-}
-
-.footer-container{
+.about-me{
+    background-image: radial-gradient(closest-side at 50% 50%, rgb(128, 208, 199), rgb(19, 84, 122));
+    padding: 20px;
+    min-height: 180vh;
     display: flex;
+    justify-content: center;
     align-items: center;
+    box-shadow: 0px 20px 70px 100px rgb(19, 84, 122);
 }
+
+    .main-paragraphs{
+        width: 80%;
+        margin: 2% auto;
+    }
+        .main-p{
+            display: flex;
+            align-items: center;
+            margin: 10em auto;
+        }
+        .paragraph{
+            transition-duration: 300ms;
+            color: white;
+            border-radius: 20px; 
+            font-size: 1.5em;
+            width: 30%;
+            padding: 1%;
+            background-color: rgba(0, 0, 0, .3);
+            background-blend-mode: multiply;
+            box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        }
+        .p-right{
+            text-align: end;
+        }
+        .large-title{
+            font-size: 5em;
+            width: 70%;
+        }
+            .large-title-welcome{
+                color: rgb(169, 235, 255);
+                text-shadow: 0px 0px 20px rgb(56, 56, 56);
+                text-align: left;
+            }
+            .large-title-middle{
+                color: rgb(255, 255, 255);
+                font-size: 5em;
+                margin-left: auto;
+                width: 70%;
+                text-align: right;
+            }
+            .large-title-last{
+                color: rgb(227, 245, 252);
+                text-align: left;
+            }
+
+
+.new-background{
+    margin-top: 100px;
+    position: relative;
+    padding-top: 200px;
+    min-height: 2500px;
+    background: #283c86;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.border-gap{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    width: 92.5%;
+    padding-top: 40px;
+    margin: 0 auto 200px auto;
+}
+
+.experience{
+    width: 100%;
+    display: flex;
+}
+    .border{
+        width: 50%;
+        padding: 40px 0 100px 0;
+    }
+        .big-section{
+            border-right: 1px solid white;
+            border-left: 1px solid white;
+            width: 85%;
+            margin: 0 auto;
+            height: 1582px;
+        }
+            .buttons-links{
+                text-align: center;
+                margin: 20px auto 40px auto;
+            }
+        .space-around{
+            height: 1530px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .theme-title{
+            color: rgb(255, 255, 255);
+            font-size: 3em;
+            margin: 0 0 5% 0;
+            text-align: center;
+        }
+            .mini-header{
+                font-size: 2em;
+                text-align: center;
+                color: white;
+                margin-top: 0;
+            }
+        .social-media{
+            transition-duration: 300ms;
+            width: 100%;
+            max-width: 500px;
+            height: 200px;
+            border-radius: 2%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+            .github, .indeed, .instagram{
+                background-color: white;
+            }
+            .facebook{
+                background-color: rgb(66, 103, 178);
+            }
+
+.main-footer{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+    .footer-container{
+        width: 96%;
+        height: fit-content;
+        margin: 40px auto;
+        text-align: center;
+    }
+    .creator{
+        font-size: .8em;
+    }
+        .white{
+            color: white;
+        }
+            
+
 
 .footer-container ul{
     flex-grow: 1;
@@ -136,10 +274,6 @@ html, body{
     margin-bottom: 25px;
 }
 
-.mini-header{
-    text-shadow: 2px 2px 6px rgb(190, 189, 189);
-}
-
 .resume-section{
     display: flex;
     flex-direction: row;
@@ -148,12 +282,6 @@ html, body{
     margin: auto;
     justify-content: space-between;
     min-height: calc(100vh - 461px);
-}
-
-.big-section{
-    text-align: left;
-    width: 100%;
-    max-width: 400px;
 }
 
 .big-section-rubios{
@@ -210,32 +338,6 @@ html, body{
     border-radius: 5%;
 }
 
-.image-about:hover, .image-about-phone:hover{
-    position: relative;
-    animation: pop-up .7s;
-}
-
-@keyframes pop-up {
-    0%{
-        top: 0px;
-    }
-
-    50%{
-        top: -15px;
-    }
-
-    100%{
-        top: 0px;
-    }
-}
-
-.flex-title{
-    height: 303.22px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .project{
     width: 100%;
     max-width: 600px;
@@ -243,9 +345,10 @@ html, body{
 }
 
 .project-resume{
+    transition-duration: 300ms;
     width: 150%;
     max-width: 500px;
-    height: 200px;
+    min-height: 200px;
     border-radius: 2%;
     margin: 0 auto;
     background-position: center;
@@ -283,6 +386,12 @@ html, body{
         background-color: rgba(0, 0, 0, .2);
         background-blend-mode: multiply;
     }
+    .project-resume-6{
+        background-image: url(images/VladimirBG.jpg);
+        background-color: rgba(0, 0, 0, .4);
+        background-blend-mode: multiply;
+        background-position: 50% 35%;
+    }
 
 .project-rubios{
     width: 70%;
@@ -291,12 +400,14 @@ html, body{
 }
 
 .resume-button{
+    transition-duration: 100ms;
     width: 7em;
     height: calc(7em/4);
     font-size: 1.1em;
     margin: .5em;
-    background-color: rgb(173, 216, 230);
+    background-color: transparent;
     border: 1px solid rgb(88, 193, 228);
+    color: white;
 }
 
 .projects-table{
@@ -305,7 +416,7 @@ html, body{
 }
 
 .resume-button:hover{
-    background-color: rgb(126, 202, 228);
+    box-shadow: 0px 0px 5px white;
     cursor: pointer;
 }
 
@@ -333,149 +444,6 @@ html, body{
     max-width: 1500px;
 }
 
-@media screen and (min-width: 1950px){
-    .big-section-1{
-        font-size: 100%;
-    }
-    
-    .big-section-3{
-        font-size: 100%;
-    }
-
-    .resume-button{
-        width: 9em;
-        height: calc(9em/4);
-        font-size: 1.2em;
-    }
-
-    .nav{
-        font-size: 1.5em;
-    }
-
-    .flex-title{
-        height: 296px;
-    }
-
-    .paragraph{
-        font-size: 1.5em;
-    }
-
-    .paragraph-2{
-        font-size: 1.5em;
-    }
-}
-
-@media screen and (min-width: 2000px){
-
-    .nav{
-        font-size: 1.7em;
-    }
-
-    .my-name{
-        font-size: 3.5em;
-    }
-
-    .flex-title{
-        height: 288.81px;
-    }
-
-    .big-section{
-        max-width: 500px;
-    }
-    
-    .big-section-rubios, .project-resume{
-        max-width: 500px;
-    }
-}
-
-@media screen and (min-width: 2350px){
-    .big-section-1{
-        font-size: 120%;
-    }
-    
-    .big-section-3{
-        font-size: 120%;
-    }
-
-    .resume-button{
-        width: 10em;
-        height: calc(10em/4);
-        font-size: 1.3em;
-    }
-
-    .paragraph{
-        font-size: 1.6em;
-    }
-
-    .paragraph-2{
-        font-size: 1.8em;
-    }
-
-    .nav{
-        font-size: 2em;
-    }
-    
-    .flex-title{
-        height: 279px;
-    }
-
-    .my-name{
-        font-size: 4em;
-    }
-
-    .img-and-text{
-        width: 50%;
-    }
-
-    .big-section{
-        max-width: 600px;
-    }
-    
-    .big-section-rubios{
-        max-width: 600px;
-    }
-}
-
-@media screen and (min-width: 2900px){
-    .big-section-1{
-        font-size: 160%;
-    }
-    
-    .big-section-3{
-        font-size: 160%;
-    }
-
-    .resume-button{
-        width: 14em;
-        height: calc(14em/5);
-        font-size: 1.8em;
-    }
-
-    .project-resume{
-        max-width: 650px;
-    }
-
-    .paragraph{
-        font-size: 1.7em;
-    }
-
-    .paragraph-2{
-        font-size: 2em;
-    }
-
-    .nav{
-        font-size: 2.3em;
-    }
-    
-    .flex-title{
-        height: 268.22px;
-    }
-
-    .my-name{
-        font-size: 4.5em;
-    }
-}
-
 @media screen and (max-width:1200px){
     .resume-section{
         flex-direction: column;
@@ -483,7 +451,7 @@ html, body{
         font-size: 2em;
     }
 
-    .project-resume{
+    .project-resume, .social-media{
         width: 100%;
         max-width: 400px;
         font-size: 1em;
@@ -495,7 +463,6 @@ html, body{
     }
 
     .button-selector{
-        flex-direction: row;
         justify-content: center;
     }
 
@@ -530,11 +497,27 @@ html, body{
     }
 }
 
-@media screen and (max-width: 1150px){
-    .work-history-section{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+@media screen and (max-width: 1100px){
+    .paragraph{
+        transition-duration: 300ms;
+        font-size: 1.2em;
+        width: 50%;
+    }
+    .large-title{
+        font-size: 3.5em;
+        width: 50%;
+    }
+        .large-title-middle{
+            font-size: 3em;
+        }
+}
+
+@media screen and (max-width: 980px){
+    .project-resume, .social-media{
+        transition-duration: 300ms;
+        width: 100%;
+        max-width: 300px;
+        font-size: 1em;
     }
 }
 
@@ -546,12 +529,6 @@ html, body{
         padding: 10px;
         margin: 1em auto;
         border-radius: 10px;
-    }
-
-    .project-resume{
-        width: 100%;
-        max-width: 300px;
-        font-size: .7em;
     }
 
     .image-about{
@@ -578,10 +555,59 @@ html, body{
     }
 }
 
-@media screen and (max-width: 640px){
-    .big-section-1, .big-section-2, .big-section-3{
+@media screen and (max-width: 700px){
+    .experience{
+        flex-direction: column;
+    }
+    .border, .border-gap{
+        width: 95%;
+        margin: 0 auto;
+    }
+        .big-section{
+            width: 100%;
+        }
+}
+
+@media screen and (max-width: 620px){
+    .about-me, .main-paragraphs{
         width: 100%;
     }
+    .main-p{
+        flex-direction: column;
+    }
+        .p-right{
+            flex-direction: column-reverse;
+        }
+
+    .large-title{
+        width: 100%;
+        font-size: 2em;
+    }
+        .large-title-welcome, .large-title-middle, .large-title-last{
+            text-align: center;
+        }
+
+    .paragraph{
+        transition-duration: 300ms;
+        width: 80%;
+        padding: 10px;
+        box-shadow: 0px 0px 10px rgb(255, 255, 255);
+        text-align: left;
+    }
+    .big-section{
+        height: fit-content;
+    }
+    .space-around{
+        height: fit-content;
+        justify-content: start;
+    }
+    .border{
+        padding-bottom: 50px;
+    }
+    .social-media{
+        margin: 20px auto;
+    }
+    
 }
 
 @media screen and (max-width: 563px){
