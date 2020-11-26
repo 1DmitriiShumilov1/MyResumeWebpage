@@ -60,11 +60,9 @@ html, body{
             margin: 0;
             width: 100vw;
             text-align: center;
-            padding-left: .5em;
         }
     .text-align-center{
         text-align: center;
-        padding-left: 1em;
     }
 
 .main-section{
@@ -222,12 +220,18 @@ html, body{
             align-items: center;
             margin-bottom: 100px;
         }
+            .social-media:hover{
+                box-shadow: 0px 0px 10px white;
+            }
             .github, .indeed, .instagram{
                 background-color: white;
             }
             .facebook{
                 background-color: rgb(66, 103, 178);
             }
+                .facebook:hover{
+                    box-shadow: 0px 0px 10px black;
+                }
 
 .main-footer{
     width: 100%;
@@ -553,6 +557,11 @@ html, body{
         display: flex;
         flex-direction: column-reverse;
     }
+
+    .project-resume-6{
+        transition-duration: 300ms;
+        font-size: .8em;
+    }
 }
 
 @media screen and (max-width: 700px){
@@ -606,11 +615,6 @@ html, body{
     }
     .social-media{
         margin: 20px auto;
-    }
-
-    .project-resume-6, .social-media{
-        transition-duration: 300ms;
-        font-size: .8em;
     }
     
 }
