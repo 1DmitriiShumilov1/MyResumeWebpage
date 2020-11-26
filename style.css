@@ -40,7 +40,6 @@ html, body{
 
 .main-header{
     background-color: rgb(10, 10, 10);
-    background-blend-mode: multiply;
     height: 80vh;
     box-shadow: 0px 0px 70px 100px rgb(10, 10, 10);
     position: relative;
@@ -60,6 +59,7 @@ html, body{
             margin: 0;
             width: 100vw;
             text-align: center;
+            padding-left: .3em;
         }
     .text-align-center{
         text-align: center;
@@ -154,13 +154,13 @@ html, body{
 
 
 .new-background{
-    margin-top: 100px;
     position: relative;
+    margin-top: 100px;
     padding-top: 200px;
     min-height: 2500px;
-    background: #283c86;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #283c86;
+    background: -webkit-linear-gradient(to right, #45a247, #283c86);
+    background: linear-gradient(to right, #45a247, #283c86);
 }
 .border-gap{
     border-right: 1px solid white;
