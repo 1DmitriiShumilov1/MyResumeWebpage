@@ -607,6 +607,11 @@ html, body{
     .social-media{
         margin: 20px auto;
     }
+
+    .project-resume-6, .social-media{
+        transition-duration: 300ms;
+        font-size: .8em;
+    }
     
 }
 
@@ -621,6 +626,10 @@ html, body{
     .title{
         font-size: .6em;
     }
+    .my-name{
+        font-size: 2.5em;
+        padding-left: .3em;
+    }
 }
 
 @media screen and (max-width: 372px){
@@ -632,9 +641,6 @@ html, body{
         height: 323.81px;
     }
 
-    .my-name{
-        font-size: 2.5em;
-    }
 
     .button-selector{
         font-size: .7em;
@@ -643,7 +649,7 @@ html, body{
 
 @media screen and (max-width: 322px){
     .my-name{
-        font-size: 2.1em;
+        font-size: 2em;
     }
 
     .paragraph{
