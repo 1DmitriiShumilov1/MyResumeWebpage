@@ -364,6 +364,7 @@ html, body{
     font-weight: bold;
     font-size: 1.5em;
     letter-spacing: 1px;
+    box-shadow: 0px 10px 10px black;
 }
     .project-resume-1{
         background-image: url(images/header-bg.jpg);
@@ -474,12 +475,6 @@ html, body{
         max-width: 100px;
         height: 30px;
         font-size: .8em;
-    }
-    
-    .big-section-1, .big-section-2, .big-section-3{
-        margin: 0 auto;
-        width: 50%;
-        font-size: .7em;
     }
 
     .row{
@@ -610,12 +605,42 @@ html, body{
         height: fit-content;
         justify-content: start;
     }
+        .hide{
+            display: none;
+        }
+
+    .social{
+        display: flex;
+        flex-direction: row;
+    }
+        .social-media{
+            transition-duration: 300ms;
+            width: 80px;
+            height: 80px;
+            border-radius: 5px;
+        }
+            .wide-logo{
+                height: 20px;
+            }
+
     .border{
         padding-bottom: 50px;
     }
+        .border-social{
+            width: 100%;
+        }
+            .big-section-social{
+                width: 95%;
+                border-right: none;
+                border-left: none;
+                border-top: 1px solid white;
+                border-bottom: 1px solid white;
+            }
     .social-media{
         margin: 20px auto;
     }
+
+    
     
 }
 
@@ -645,11 +670,25 @@ html, body{
         height: 323.81px;
     }
 
-
     .button-selector{
         font-size: .7em;
     }
-}
+
+    .social{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .project-resume{
+        transition-duration: 300ms;
+        max-width: 240px;
+        font-size: 1em;
+    }
+        .project-resume-6{
+            transition-duration: 300ms;
+            font-size: .7em;
+        }
+    }
 
 @media screen and (max-width: 322px){
     .my-name{
