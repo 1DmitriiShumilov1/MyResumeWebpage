@@ -106,10 +106,10 @@ html, body{
 }
 
 .about-me{
-    background-image: radial-gradient(closest-side at 50% 50%, rgb(128, 208, 199), rgb(19, 84, 122));
+    background-image: radial-gradient(closest-side at 50% 50%, rgb(128, 208, 199), rgb(36, 121, 170));
     padding: 250px 20px 20px 20px;
     min-height: 180vh;
-    box-shadow: 0px 20px 70px 100px rgb(19, 84, 122);
+    box-shadow: 0px 20px 70px 100px rgb(36, 121, 170);
 }
     .main-paragraphs{
         width: 80%;
@@ -161,8 +161,8 @@ html, body{
     padding-top: 200px;
     min-height: 2500px;
     background: #283c86;
-    background: -webkit-linear-gradient(to right, #45a247, #283c86);
-    background: linear-gradient(to right, #45a247, #283c86);
+    background: -webkit-linear-gradient(to right, #EFC9AF, #1F8AC0);
+    background: linear-gradient(to right, #EFC9AF,  #1F8AC0);
 }
 .border-gap{
     border-right: 1px solid white;
