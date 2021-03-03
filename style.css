@@ -45,6 +45,7 @@ html, body{
     position: relative;
 }
     .name{
+        transition-duration: 100ms;
         display: flex;
         flex-direction: column;
         align-items: center;
