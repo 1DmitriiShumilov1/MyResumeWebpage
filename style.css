@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 /*testing git push*/
 
@@ -395,7 +396,8 @@ html, body{
             text-align: center;
         }
         .bold{
-            font-weight: 800;
+            font-family: Roboto;
+            font-weight: 500;
         }
     .project-resume-1{
         background-image: url(images/header-bg.jpg);
