@@ -408,7 +408,6 @@ html, body{
     }
     .project-resume-3{
         background-image: url(images/RojoChicken.jpg);
-        background-color: rgba(0, 0, 0, .4);
         background-blend-mode: multiply;
     }
     .project-resume-4{
