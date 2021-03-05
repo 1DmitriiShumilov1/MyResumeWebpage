@@ -502,6 +502,7 @@ html, body{
 
     .fade-in-text{
         font-size: 1.2em;
+        font-weight: bold;
     }
 
     .container-2{
@@ -568,6 +569,7 @@ html, body{
 
     .fade-in-text{
         font-size: 1em;
+        font-weight: bold;
     }
 }
 
@@ -728,6 +730,7 @@ html, body{
     }
         .fade-in-text{
             font-size: 1em;
+            font-weight: bold;
         }
 
     .main-p, .main-paragraphs{
