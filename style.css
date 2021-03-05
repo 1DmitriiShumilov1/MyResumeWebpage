@@ -413,11 +413,11 @@ html, body{
     .project-resume-4{
         background-image: linear-gradient(to right, #ABDCFF, #0396FF);
         background-color: rgba(221, 0, 0, 0.2);
-        background-blend-mode: overlay;
+        background-blend-mode: multiply;
     }
     .project-resume-5{
         background-image: url(images/TicTacToeBG.bmp);
-        background-color: rgba(0, 0, 0, .2);
+        background-color: rgba(255, 0, 0, 0.2);
         background-blend-mode: multiply;
     }
     .project-resume-6{
