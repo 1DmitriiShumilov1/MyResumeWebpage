@@ -407,8 +407,8 @@ html, body{
     }
     .project-resume-3{
         background-image: url(images/RojoChicken.jpg);
-        background-color: rgba(0 ,0, 0 ,.9);
-        background-blend-mode: hue;
+        background-color: rgba(0, 0, 0, .4);
+        background-blend-mode: multiply;
     }
     .project-resume-4{
         background-image: linear-gradient(to right, #ABDCFF, #0396FF);
@@ -422,10 +422,11 @@ html, body{
     }
     .project-resume-6{
         background-image: url(images/VladimirBG.jpg);
-        background-color: rgba(0, 0, 0, .9);
+        background-color: rgba(0, 0, 0, .4);
         background-blend-mode: multiply;
         background-position: 50% 35%;
     }
+    
 
 .project-rubios{
     width: 70%;
