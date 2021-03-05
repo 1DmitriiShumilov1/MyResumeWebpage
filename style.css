@@ -564,6 +564,7 @@ html, body{
 
     .fade-in-text{
         font-size: 1em;
+        font-weight: bold;
     }
 }
 
@@ -731,7 +732,7 @@ html, body{
         .fade-in-text{
             font-size: 1em;
         }
-        .project-resume-6{
+        .fade-in-text-large{
             transition-duration: 300ms;
             font-size: .7em;
         }
@@ -752,6 +753,11 @@ html, body{
 
     .button-selector{
         font-size: .7em;
+    }
+
+    .big-section, .border-gap{
+        border-right: none;
+        border-left: none;
     }
 }
 
