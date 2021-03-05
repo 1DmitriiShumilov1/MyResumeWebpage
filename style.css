@@ -417,12 +417,12 @@ html, body{
     }
     .project-resume-5{
         background-image: url(images/TicTacToeBG.bmp);
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgba(0, 0, 0, 0.4);
         background-blend-mode: multiply;
     }
     .project-resume-6{
         background-image: url(images/VladimirBG.jpg);
-        background-color: rgba(0, 0, 0, .4);
+        background-color: rgba(0, 0, 0, .9);
         background-blend-mode: multiply;
         background-position: 50% 35%;
     }
