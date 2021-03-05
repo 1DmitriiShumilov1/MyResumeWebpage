@@ -392,6 +392,9 @@ html, body{
         font-size: 1.5em;
         letter-spacing: 1px;
     }
+        .fade-in-text-large{
+            text-align: center;
+        }
     .project-resume-1{
         background-image: url(images/header-bg.jpg);
         background-color: rgba(0, 0, 0, .4);
@@ -404,8 +407,8 @@ html, body{
     }
     .project-resume-3{
         background-image: url(images/RojoChicken.jpg);
-        background-color: rgba(0, 0, 0, .4);
-        background-blend-mode: multiply;
+        background-color: rgba(136, 74, 74, 0.4);
+        background-blend-mode: overlay;
     }
     .project-resume-4{
         background-image: linear-gradient(to right, #ABDCFF, #0396FF);
@@ -599,11 +602,6 @@ html, body{
         display: flex;
         flex-direction: column-reverse;
     }
-
-    .project-resume-6{
-        transition-duration: 300ms;
-        font-size: .8em;
-    }
 }
 
 @media screen and (max-width: 700px){
@@ -729,9 +727,6 @@ html, body{
     }
         .fade-in-text{
             font-size: 1em;
-        }
-        .fade-in-text-large{
-            font-size: .7em;
         }
 
     .main-p, .main-paragraphs{
