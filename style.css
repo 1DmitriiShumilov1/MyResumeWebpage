@@ -407,8 +407,8 @@ html, body{
     }
     .project-resume-3{
         background-image: url(images/RojoChicken.jpg);
-        background-color: rgba(0 ,0, 0 , 0.4);
-        background-blend-mode: multiply;
+        background-color: rgba(0 ,0, 0 ,.8);
+        background-blend-mode: overlay;
     }
     .project-resume-4{
         background-image: linear-gradient(to right, #ABDCFF, #0396FF);
@@ -417,7 +417,7 @@ html, body{
     }
     .project-resume-5{
         background-image: url(images/TicTacToeBG.bmp);
-        background-color: rgba(255, 0, 0, 0.2);
+        background-color: rgba(0, 0, 0, 0.2);
         background-blend-mode: multiply;
     }
     .project-resume-6{
