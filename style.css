@@ -388,7 +388,7 @@ html, body{
 }
     .fade-in-text{
         color: white;
-        font-weight: bolder;
+        font-weight: bold;
         font-size: 1.5em;
         letter-spacing: 1px;
     }
@@ -404,7 +404,7 @@ html, body{
     }
     .project-resume-3{
         background-image: url(images/RojoChicken.jpg);
-        background-color: rgba(0, 0, 0, .8);
+        background-color: rgba(0, 0, 0, .4);
         background-blend-mode: multiply;
     }
     .project-resume-4{
@@ -564,7 +564,6 @@ html, body{
 
     .fade-in-text{
         font-size: 1em;
-        font-weight: bold;
     }
 }
 
@@ -727,13 +726,11 @@ html, body{
     .project-resume{
         transition-duration: 300ms;
         max-width: 240px;
-        font-size: 1em;
     }
         .fade-in-text{
             font-size: 1em;
         }
         .fade-in-text-large{
-            transition-duration: 300ms;
             font-size: .7em;
         }
 
