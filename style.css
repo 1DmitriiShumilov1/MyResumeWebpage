@@ -491,7 +491,7 @@ html, body{
     max-width: 1500px;
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1250px){
     .resume-section{
         flex-direction: column;
         align-items: center;
@@ -562,7 +562,7 @@ html, body{
         }
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 1030px){
     .project-resume, .social-media{
         transition-duration: 300ms;
         width: 100%;
@@ -606,6 +606,9 @@ html, body{
         display: flex;
         flex-direction: column-reverse;
     }
+    .big-section{
+        width: 95%;
+    }
 }
 
 @media screen and (max-width: 700px){
@@ -619,34 +622,7 @@ html, body{
         .big-section{
             width: 100%;
         }
-}
 
-@media screen and (max-width: 620px){
-    .about-me, .main-paragraphs{
-        width: 100%;
-    }
-    .main-p{
-        flex-direction: column;
-    }
-        .p-right{
-            flex-direction: column-reverse;
-        }
-
-    .large-title{
-        width: 100%;
-        font-size: 2em;
-    }
-        .large-title-welcome, .large-title-middle, .large-title-last{
-            text-align: center;
-        }
-
-    .paragraph{
-        transition-duration: 300ms;
-        width: 80%;
-        padding: 10px;
-        box-shadow: 0px 0px 10px rgb(255, 255, 255);
-        text-align: left;
-    }
     .big-section{
         height: fit-content;
     }
@@ -658,6 +634,10 @@ html, body{
             display: none;
         }
 
+    .new-background{
+        min-height: 1000px;
+    }
+    
     .social{
         display: flex;
         flex-direction: row;
@@ -688,9 +668,33 @@ html, body{
     .social-media{
         margin: 20px auto;
     }
+}
 
-    .new-background{
-        min-height: 1000px;
+@media screen and (max-width: 620px){
+    .about-me, .main-paragraphs{
+        width: 100%;
+    }
+    .main-p{
+        flex-direction: column;
+    }
+        .p-right{
+            flex-direction: column-reverse;
+        }
+
+    .large-title{
+        width: 100%;
+        font-size: 2em;
+    }
+        .large-title-welcome, .large-title-middle, .large-title-last{
+            text-align: center;
+        }
+
+    .paragraph{
+        transition-duration: 300ms;
+        width: 80%;
+        padding: 10px;
+        box-shadow: 0px 0px 10px rgb(255, 255, 255);
+        text-align: left;
     }
 }
 

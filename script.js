@@ -1,5 +1,5 @@
 if (document.readyState == 'loading'){
-    document.addEventListener('DOMContentLoaded', game);
+    document.addEventListener('DOMContentLoaded', WebCode());
 } else {
     WebCode();
 }
