@@ -407,8 +407,8 @@ html, body{
     }
     .project-resume-3{
         background-image: url(images/RojoChicken.jpg);
-        background-color: rgba(0 ,0, 0 ,.8);
-        mix-blend-mode: overlay;
+        background-color: rgba(0 ,0, 0 ,.4);
+        background-blend-mode: hue;
     }
     .project-resume-4{
         background-image: linear-gradient(to right, #ABDCFF, #0396FF);
