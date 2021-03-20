@@ -206,13 +206,30 @@ html, body{
     background: -webkit-linear-gradient(to right, #EFC9AF, #1F8AC0);
     background: linear-gradient(to right, #EFC9AF,  #1F8AC0);
 }
+
 .border-gap{
     border-right: 1px solid white;
     border-left: 1px solid white;
     width: 92.5%;
     padding-top: 40px;
-    margin: 0 auto 200px auto;
+    margin: 0 auto;
 }
+
+.review{
+    width: 1000px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+}
+    .review-text{
+        font-size: 130%;
+        color: white;
+        text-align: center;
+    }
+        .no-underline{
+            text-decoration: none;
+            color: rgb(224, 224, 224);
+        }
 
 .experience{
     width: 100%;
@@ -434,7 +451,7 @@ html, body{
         background-blend-mode: multiply;
     }
     .project-resume-jsShowcase{
-        background-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+        background: linear-gradient(to right, #1a2980, #26d0ce);
         background-color: rgba(0, 0, 0, .2);
         background-blend-mode: multiply;
     }
@@ -472,7 +489,7 @@ html, body{
 }
 
 .resume-button{
-    transition-duration: 100ms;
+    transition-duration: 50ms;
     width: 7em;
     height: calc(7em/4);
     font-size: 1.1em;
@@ -488,7 +505,7 @@ html, body{
 }
 
 .resume-button:hover{
-    box-shadow: 0px 0px 5px white;
+    box-shadow: 0px 0px 3px white;
     cursor: pointer;
 }
 
@@ -597,6 +614,13 @@ html, body{
     .fade-in-text{
         font-size: 1em;
     }
+
+    .review{
+        width: 96%;
+    }
+        .review-text{
+            font-size: 120%;
+        }
 }
 
 @media screen and (max-width: 800px) {
@@ -746,6 +770,13 @@ html, body{
     .main-p{
         margin-top: 70px;
     }
+
+    .review{
+        margin: 50px auto;
+    }
+        .review-text{
+            font-size: 100%;
+        }
 }
 
 @media screen and (max-width: 400px){
