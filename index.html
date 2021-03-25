@@ -18,107 +18,280 @@
                 <!--<img class="my-picture" src="images/me-pic.JPG">-->
             </div>
 
-            <p class="text-align-center fade-in">scroll down to start</p>
+            <p class="text-align-center intro-mini-text fade-in">scroll down to start</p>
         </header>
         
         <section class="about-me">
 
-            <h1 class="theme-title">Portfolio</h1>
+            <h1 class="theme-title">Main project</h1>
 
-            <section class="border-gap">
+            <section class="smaller-width container-project">
                 <div class="project-resume project-resume-musician fade-in"><p class="fade-in fade-in-text fade-in-text-large bold">Website for a professional musician</p></div>
                 <div class="buttons-links">
                     <a target="_blank" class="resume-button-text fade-in" href="https://vladimiromeltchenko.com"><button class="resume-button">Webpage</button></a>
+                </div>
+                <div class="about-project">
+                    <div class="about">
+                        <p class="text-align-center bold">About</p>
+                        <ul>
+                            <li>4-page website for a musician from Portugal</li>
+                            <li>Includes audio and video</li>
+                        </ul>
+                    </div>
+                    <div class="challenges">
+                        <p class="text-align-center bold">Challenges</p>
+                        <ul>
+                            <li>Creating the 'double-sided' album covers (Media page). On hover, the
+                                album cover has to flip and show "the back side" of the album with
+                                all of the songs.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="used-technologies-container">
+                        <p class="text-align-center bold">Used Technologies</p>
+                        <div class="used-technologies">
+                            <span>HTML |</span>
+                            <span>CSS |</span>
+                            <span>Youtube Embed</span>
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <section class="review">
                 <p class="review-text">"Key to his clear, clean and highly impressive design was his sense of what is appropriate for the intended audience.
                 I highly recommend him for short and long term projects."</p>
-                <a class="review-text no-underline" href="https://vladimiromeltchenko.com">- Vladimir Omeltchenko</a>
+                <a class="review-text no-underline bold" href="https://vladimiromeltchenko.com">- Vladimir Omeltchenko</a>
             </section>
 
             <section class="experience">
-
-                <div class="border">
 
                     <div class="big-section">
                         <p class="mini-header">Personal Projects</p>
 
                         <div class="space-around">
-                            <div class="project-resume project-resume-jsShowcase">
-                                <p class="fade-in fade-in-text bold">JavaScript Showcase</p>
-                            </div>
-                            <div class="buttons-links">
-                                <a target="_blank" class="resume-button-text" href="https://github.com/1DmitriiShumilov1/JavaScriptShowcase"><button class="resume-button">Code</button></a>
-                                <a target="_blank" class="resume-button-text" href="https://js-showcase.netlify.app"><button class="resume-button">Webpage</button></a>
+                            <div class="container-project">
+                                <div class="project-resume project-resume-weather">
+                                    <p class="fade-in fade-in-text bold">Weather App w/ fetch API</p>
+                                </div>
+                                <div class="buttons-links">
+                                    <a target="_blank" class="resume-button-text" href="https://github.com/1DmitriiShumilov1/my-first-API/"><button class="resume-button">Code</button></a>
+                                    <a target="_blank" class="resume-button-text" href="https://firstweatherapi.netlify.app"><button class="resume-button">Webpage</button></a>
+                                </div>
+                                <div class="about-project">
+                                    <div class="about">
+                                        <p class="text-align-center bold">About</p>
+                                        <ul>
+                                            <li>Using Geocoding API from Google to find the city with coordinates</li>
+                                            <li>Using openweathermap API to get current weather</li>
+                                            <li>Displaying the received information with the icons / numbers / text</li>
+                                        </ul>
+                                    </div>
+                                    <div class="challenges">
+                                        <p class="text-align-center bold">Challenges</p>
+                                        <ul>
+                                            <li>Fixing the mixed content problem (HTTP / HTTPS)</li>
+                                            <li>JSON's information was not reachable (couldn't assign a variable
+                                                to a string from JSON)
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="used-technologies-container">
+                                        <p class="text-align-center bold">Used Technologies</p>
+                                        <div class="used-technologies">
+                                            <span>HTML |</span>
+                                            <span>CSS |</span>
+                                            <span>JavaScript |</span>
+                                            <span>JSON |</span>
+                                            <span>Fetch API |</span>
+                                            <span>openweathermap API</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="project-resume project-resume-ticTacToe">
-                                <p class="fade-in fade-in-text bold">Tic Tac Toe</p>
-                            </div>
-                            <div class="buttons-links">
-                                <a target="_blank" class="resume-button-text" href="https://github.com/1DmitriiShumilov1/TicTacToe"><button class="resume-button">Code</button></a>
-                                <a target="_blank" class="resume-button-text" href="https://fancy-tictactoe.netlify.app"><button class="resume-button">Webpage</button></a>
+                            <div class="container-project">
+                                <div class="project-resume project-resume-jsShowcase">
+                                    <p class="fade-in fade-in-text bold">JavaScript Showcase</p>
+                                </div>
+                                <div class="buttons-links">
+                                    <a target="_blank" class="resume-button-text" href="https://github.com/1DmitriiShumilov1/JavaScriptShowcase"><button class="resume-button">Code</button></a>
+                                    <a target="_blank" class="resume-button-text" href="https://js-showcase.netlify.app"><button class="resume-button">Webpage</button></a>
+                                </div>
+                                <div class="about-project">
+                                    <div class="about">
+                                        <p class="text-align-center bold">About</p>
+                                        <ul>
+                                            <li>Fully functionable Contact List (Add / Edit / Remove contacts)</li>
+                                            <li>Background Changer (using hex system)</li>
+                                            <li>Tip Calculator</li>
+                                        </ul>
+                                    </div>
+                                    <div class="challenges">
+                                        <p class="text-align-center bold">Challenges</p>
+                                        <ul>
+                                            <li>EventListeners' options weren't used, so they would attach to a contact list element forever</li>
+                                            <li>When "update contact" button is clicked, previously updated contact cell would delete its innerHTML</li>
+                                            <li>While generating random colors, none of them had 'F' in the hex code</li>
+                                        </ul>
+                                    </div>
+                                    <div class="used-technologies-container">
+                                        <p class="text-align-center bold">Used Technologies</p>
+                                        <div class="used-technologies">
+                                            <span>HTML |</span>
+                                            <span>CSS |</span>
+                                            <span>JavaScript</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="project-resume project-resume-restaurant">
-                                <p class="fade-in fade-in-text bold">Restaurant</p>
-                            </div>
-                            <div class="buttons-links">
-                                <a target="_blank" class="resume-button-text" href="https://github.com/1DmitriiShumilov1/UnusualDinerWebpage"><button class="resume-button">Code</button></a>
-                                <a target="_blank" class="resume-button-text" href="https://unusualdiner.netlify.app"><button class="resume-button">Webpage</button></a>
+                            <div class="container-project">
+                                <div class="project-resume project-resume-ticTacToe">
+                                    <p class="fade-in fade-in-text bold">Tic Tac Toe</p>
+                                </div>
+                                <div class="buttons-links">
+                                    <a target="_blank" class="resume-button-text" href="https://github.com/1DmitriiShumilov1/TicTacToe"><button class="resume-button">Code</button></a>
+                                    <a target="_blank" class="resume-button-text" href="https://fancy-tictactoe.netlify.app"><button class="resume-button">Webpage</button></a>
+                                </div>
+                                <div class="about-project">
+                                    <div class="about">
+                                        <p class="text-align-center bold">About</p>
+                                        <ul>
+                                            <li>One player / Two players</li>
+                                            <li>Bot never makes a random move after 1st move</li>
+                                            <li>You can lose to the bot without any problem when not playing careful</li>
+                                        </ul>
+                                    </div>
+                                    <div class="challenges">
+                                        <p class="text-align-center bold">Challenges</p>
+                                        <ul>
+                                            <li>Bot would make a move to the used cell</li>
+                                            <li>Player can't make a move after the first move</li>
+                                        </ul>
+                                    </div>
+                                    <div class="used-technologies-container">
+                                        <p class="text-align-center bold">Used Technologies</p>
+                                        <div class="used-technologies">
+                                            <span>HTML |</span>
+                                            <span>CSS |</span>
+                                            <span>JavaScript</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="project-resume project-resume-stackBlocks">
-                                <p class="fade-in fade-in-text bold">Stack The Blocks</p>
-                            </div>
-                            <div class="buttons-links">
-                                <a target="_blank" class="resume-button-text" href="https://github.com/1DmitriiShumilov1/JavaStackingBlocks"><button class="resume-button">Code</button></a>
-                                <a target="_blank" class="resume-button-text" href="https://stack-cubes.netlify.app"><button class="resume-button">Webpage</button></a>
+                            <div class="container-project">
+                                <div class="project-resume project-resume-restaurant">
+                                    <p class="fade-in fade-in-text bold">Restaurant</p>
+                                </div>
+                                <div class="buttons-links">
+                                    <a target="_blank" class="resume-button-text" href="https://github.com/1DmitriiShumilov1/UnusualDinerWebpage"><button class="resume-button">Code</button></a>
+                                    <a target="_blank" class="resume-button-text" href="https://unusualdiner.netlify.app"><button class="resume-button">Webpage</button></a>
+                                </div>
+                                <div class="about-project">
+                                    <div class="about">
+                                        <p class="text-align-center bold">About</p>
+                                        <ul>
+                                            <li>4-page restaurant website</li>
+                                            <li>Fully functionable JavaScript Cart</li>
+                                        </ul>
+                                    </div>
+                                    <div class="challenges">
+                                        <p class="text-align-center bold">Challenges</p>
+                                        <ul>
+                                            <li>I copied the JS cart code form the Violin Store project and optimized it for this website. That was a very difficult task for a person
+                                                who started learning JavaScript 2 weeks before this project.
+                                            </li>
+                                            <li>EventListeners woudn't work correctly (adding one item, different item adds to the cart)</li>
+                                            <li>Undefined variables when 'purchase' button is clicked</li>
+                                        </ul>
+                                    </div>
+                                    <div class="used-technologies-container">
+                                        <p class="text-align-center bold">Used Technologies</p>
+                                        <div class="used-technologies">
+                                            <span>HTML |</span>
+                                            <span>CSS |</span>
+                                            <span>JavaScript</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="project-resume project-resume-violinStore">
-                                <p class="fade-in fade-in-text bold">Violin Store</p>
+                            <div class="container-project">
+                                <div class="project-resume project-resume-stackBlocks">
+                                    <p class="fade-in fade-in-text bold">Stack The Blocks</p>
+                                </div>
+                                <div class="buttons-links">
+                                    <a target="_blank" class="resume-button-text" href="https://github.com/1DmitriiShumilov1/JavaStackingBlocks"><button class="resume-button">Code</button></a>
+                                    <a target="_blank" class="resume-button-text" href="https://stack-cubes.netlify.app"><button class="resume-button">Webpage</button></a>
+                                </div>
+                                <div class="about-project">
+                                    <div class="about">
+                                        <p class="text-align-center bold">About</p>
+                                        <ul>
+                                            <li>Picking 3-9 blocks</li>
+                                            <li>9 different colors</li>
+                                            <li>At the end, the picked blocks will be stacked on each other</li>
+                                        </ul>
+                                    </div>
+                                    <div class="challenges">
+                                        <p class="text-align-center bold">Challenges</p>
+                                        <ul>
+                                            <li>No matter how many blocks you picked, only 3 blocks would show up at the end</li>
+                                            <li>This was my first time trying to make a game in JS, so I had to learn how to create
+                                                it with only one html file (without the &#60;a&#62; tag)
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="used-technologies-container">
+                                        <p class="text-align-center bold">Used Technologies</p>
+                                        <div class="used-technologies">
+                                            <span>HTML |</span>
+                                            <span>CSS |</span>
+                                            <span>JavaScript</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="buttons-links">
-                                <a target="_blank" class="resume-button-text" href="https://github.com/1DmitriiShumilov1/ViolinStoreWebpage"><button class="resume-button">Code</button></a>
-                                <a target="_blank" class="resume-button-text" href="https://violinstore.netlify.app"><button class="resume-button">Webpage</button></a>
+
+                            <div class="container-project">
+                                <div class="project-resume project-resume-violinStore">
+                                    <p class="fade-in fade-in-text bold">Violin Store</p>
+                                </div>
+                                <div class="buttons-links">
+                                    <a target="_blank" class="resume-button-text" href="https://github.com/1DmitriiShumilov1/ViolinStoreWebpage"><button class="resume-button">Code</button></a>
+                                    <a target="_blank" class="resume-button-text" href="https://violinstore.netlify.app"><button class="resume-button">Webpage</button></a>
+                                </div>
+                                <div class="about-project">
+                                    <div class="about">
+                                        <p class="text-align-center bold">About</p>
+                                        <ul>
+                                            <li>The first project that I made by myself</li>
+                                            <li>2-page website with the JS cart</li>
+                                        </ul>
+                                    </div>
+                                    <div class="challenges">
+                                        <p class="text-align-center bold">Challenges</p>
+                                        <ul>
+                                            <li>Overlapping divs</li>
+                                            <li>No optimization for mobile browsers</li>
+                                        </ul>
+                                    </div>
+                                    <div class="used-technologies-container">
+                                        <p class="text-align-center bold">Used Technologies</p>
+                                        <div class="used-technologies">
+                                            <span>HTML |</span>
+                                            <span>CSS |</span>
+                                            <span>JavaScript</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
 
                     </div>
-
-                </div>
-
-                <div class="border border-social">
-
-                    <div class="big-section big-section-social">
-
-                        <p class="mini-header hide">You can find me at</p>
-
-                            <div class="space-around social">
-                                <a target="_blank" class="social-media github" href="https://github.com/1DmitriiShumilov1">
-                                    <img class="logo fade-in" src="images/github-logo.png">
-                                </a>
-
-                                <a target="_blank" class="social-media facebook" href="https://www.facebook.com/dima.shumilov.357/">
-                                    <img class="logo fade-in" src="images/facebook-logo-58.png">
-                                </a>
-
-                                <a target="_blank" class="social-media indeed" href="https://www.linkedin.com/in/dima-shumilov/">
-                                    <img class="logo wide-logo fade-in" src="images/linkedin-logo.png">
-                                </a>
-
-                                <a target="_blank" class="social-media instagram" href="https://www.instagram.com/dima__shumilov/">
-                                    <img class="logo fade-in" src="images/ig-logo.png">
-                                </a>
-
-                        </div>
-                    </div>
-
-                </div>
 
             </section>
 
@@ -131,16 +304,14 @@
                         <h1 class="large-title large-title-welcome slide-in from-left bold">Hello and welcome!</h1>
         
                         <p class="paragraph slide-in">Hello, My name is Dmitrii and currently I am 19 years old. I was born in Perm, Russia in 2001. Before moving to the US,
-                            I spent 9 years studying different subjects at school. My 2 favorites were English (as a second language) and Maths. As almost every
-                            kid in this world, I did not always like doing the homework, but I still had some temptation to learn, know more. As you can
+                            I spent 9 years studying different subjects at school. My 2 favorites were English (as a second language) and Maths. I have a temptation to learn, gain experience. As you can
                             see, I succeeded in learning English. The only thing left for me to do is to succeed in coding.</p>
                     </div>
                     
                     <div class="main-p p-right">
-                        <p class="paragraph slide-in">I moved to the United States with my mother when I was 16. I didn't have very good grades in my Russian school, so I decided that it is time for me
-                            to change myself. At August of 2017, I joined Woodcreek High School as a sophomore. 3 years flew by, and I am already a graduate, class 
-                            of 2020. Throughout these 3 years, I I got only one C in one class - and it was English; I managed to get all A's and B's in all 
-                            of my other classes.
+                        <p class="paragraph slide-in">I moved to the United States with my mother when I was 16. I didn't have very good grades in my Russian school, so I decided that it's time to change. 
+                            At August of 2017, I joined Woodcreek High School as a sophomore. 3 years flew by, and I am already a graduate, class of 2020. Throughout these 3 years, I got only one C 
+                            in one class - and it was English; I managed to get all A's and B's in all of my other classes.
                         </p>
         
                         <h1 class="large-title large-title-middle slide-in from-right bold">Moving to the United States</h1>
