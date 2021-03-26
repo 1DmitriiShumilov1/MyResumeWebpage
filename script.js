@@ -5,6 +5,7 @@ if (document.readyState == 'loading'){
 }
 
 function WebCode(){
+    //------------Fading and sliding animations------------//
     const faders = document.querySelectorAll('.fade-in');
     const sliders = document.querySelectorAll('.slide-in');
 
@@ -34,4 +35,19 @@ function WebCode(){
     sliders.forEach(slider => {
         appearOnScroll.observe(slider);
     })
+
+    //---------------------------------------------------//
+
+    const buttonDone = document.getElementsByClassName('button-done')[0]
+    buttonDone.addEventListener('click', launchMail, {once: true});
+
+    function launchMail(){
+        let subject = document.getElementsByClassName('email-subject')[0];
+        let message = document.getElementsByClassName('email-message')[0];
+        let link = document.getElementsByClassName('button-done')[0]
+    
+        link.href = 'mailto:11.dimashumilov.11@gmail.com?subject=' + subject.value + '&body=' + message.value +'';
+        buttonDone.removeEventListener('click', launchMail, {once: true});
+        buttonDone.addEventListener('click', launchMail, {once: true});
+    }
 }
