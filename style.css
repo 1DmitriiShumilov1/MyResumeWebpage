@@ -66,10 +66,11 @@ body {
 }
 .name {
   transition-duration: 100ms;
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  min-height: 80vh;
+  min-height: 70vh;
 }
 .my-name {
   position: absolute;
