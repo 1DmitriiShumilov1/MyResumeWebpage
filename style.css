@@ -69,7 +69,7 @@ body {
   display: grid;
   place-items: center;
   width: 100%;
-  height: 80vh;
+  min-height: 80vh;
 }
 .my-name {
   position: absolute;
