@@ -59,15 +59,15 @@ body {
 .main-header {
   background-color: rgb(10, 10, 10);
   min-height: 500px;
-  box-shadow: 0px 0px 70px 100px rgb(10, 10, 10);
   position: relative;
+  padding-bottom: 2%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
 }
 .name {
   transition-duration: 100ms;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
   width: 100%;
   height: 80vh;
 }
@@ -162,7 +162,7 @@ body {
 }
 .large-title-welcome {
   color: rgb(169, 235, 255);
-  text-shadow: 0px 0px 20px rgb(56, 56, 56);
+  text-shadow: 0px 0px 60px rgb(56, 56, 56);
   text-align: left;
 }
 .large-title-middle {
@@ -268,6 +268,14 @@ body {
   width: 90%;
   margin: 0 auto;
   text-align: center;
+}
+.long-text {
+  width: 85%;
+  margin: 0 auto;
+}
+.no-padding {
+  padding: 0;
+  list-style-type: none;
 }
 .theme-title {
   color: rgb(255, 255, 255);
@@ -577,7 +585,7 @@ form {
   cursor: pointer;
 }
 
-.resume-button-text {
+.text-decoration-none {
   text-decoration: none;
 }
 
